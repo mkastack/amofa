@@ -1,0 +1,70 @@
+/* AMOFA official colour system, plus the Store layout tokens built on it. */
+:root {
+  color-scheme: light;
+
+  /* Official palette */
+  --color-background: #F7F6F2;
+  --color-text: #24272B;
+  --color-accent: #315CBB;
+  --color-accent-hover: #264C9F;
+  --color-surface: #E9E7E1;
+  --color-card: #FFFFFF;
+  --color-border: #DFDED8;
+  --color-text-secondary: #5C6066;
+  --color-disabled-background: #D4D3CE;
+  --color-disabled-text: #676B70;
+
+  /* Derived from the official palette */
+  --color-text-tertiary: #767A80;   /* large text only (≥ 24px) */
+  --color-footer: #EFEDE7;
+  --color-control-border: #8E9196;  /* 3:1 against white for inputs */
+  --blue-900: #142B5E;
+  --blue-800: #1C3A7C;
+  --blue-700: #264C9F;
+  --blue-600: #315CBB;
+  --blue-300: #9DB6EC;              /* links and accents on charcoal */
+  --blue-200: #C9D6F0;
+  --blue-150: #DCE5F7;              /* body text on blue fields */
+  --blue-100: #E6ECF8;
+  --sun: #F4B841;                   /* bead colour: renders and the brand mark's bead only */
+  --on-dark-muted: #C9CBCF;         /* secondary text on charcoal */
+  --color-stock-in: #1E7A46;        /* state: in stock (5.3:1 on white) */
+  --color-stock-low: #A4590B;       /* state: low stock (5.2:1 on white) */
+  --color-error: #B3261E;           /* state: form errors, declined payment (6:1 on white) */
+  --color-error-soft: #FBE9E7;
+
+  /* AMOFA brand identity (navy header and footer, unveiling, About page) */
+  --brand-navy: #0E1C34;
+  --brand-navy-2: #12264A;
+  --brand-gold: #FFBE0E;
+  --brand-gold-deep: #E0A400;
+  --brand-yellow: #FFF669;
+  --on-navy-muted: #B8C1D3;         /* 9.5:1 on navy */
+
+  /* Depth */
+  --shadow-card: 0 4px 14px rgb(36 39 43 / 6%);
+  --shadow-card-hover: 0 14px 34px rgb(36 39 43 / 12%);
+  --shadow-panel: 0 24px 48px -16px rgb(36 39 43 / 22%);
+
+  /* Shape */
+  --radius-tile: 20px;
+  --radius-stage: 28px;
+  --radius-control: 12px;
+  --radius-pill: 980px;
+
+  /* Type */
+  --font-sans: var(--font-mona), "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* Two-tone headings: the lead phrase in AMOFA navy, the continuation in gray */
+  --color-heading-lead: var(--blue-800);
+
+  /* Layout (shelf rhythm measured on the live Apple Store: 400 × 500 cards, 20px gaps, 140px inset at 1440) */
+  --container: 1160px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --nav-height: 44px;
+  --card-shadow-store: 2px 4px 12px rgb(0 0 0 / 8%);
+  --card-shadow-store-hover: 2px 4px 16px rgb(0 0 0 / 16%);
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-nav: cubic-bezier(.4, 0, .6, 1);    /* apple.com global nav: link colour, flyout height, curtain */
+  --ease-bead: cubic-bezier(.3, 1.22, .5, 1);  /* abacus beads only: a slight settle on the rod */
+}

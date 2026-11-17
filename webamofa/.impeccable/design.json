@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T00:00:00Z",
+  "title": "Design System: AMOFA Store",
+  "extensions": {
+    "colorMeta": {
+      "warm-paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#F7F6F2",
+        "tonalRamp": [
+          "#2B2A27",
+          "#4A4944",
+          "#6C6A64",
+          "#908E87",
+          "#B5B3AC",
+          "#D4D3CE",
+          "#E9E7E1",
+          "#F7F6F2"
+        ]
+      },
+      "graphite-ink": {
+        "role": "neutral",
+        "displayName": "Graphite Ink",
+        "canonical": "#24272B",
+        "tonalRamp": [
+          "#16181B",
+          "#24272B",
+          "#3E4247",
+          "#5C6066",
+          "#767A80",
+          "#8E9196",
+          "#BDBBB4",
+          "#DFDED8"
+        ]
+      },
+      "amofa-blue": {
+        "role": "primary",
+        "displayName": "AMOFA Blue",
+        "canonical": "#315CBB",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "amofa-blue-deep": {
+        "role": "primary",
+        "displayName": "AMOFA Blue Deep",
+        "canonical": "#264C9F",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "heading-navy": {
+        "role": "primary",
+        "displayName": "Heading Navy",
+        "canonical": "#1C3A7C",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "blue-900": {
+        "role": "primary",
+        "displayName": "Blue 900",
+        "canonical": "#142B5E",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "blue-200": {
+        "role": "secondary",
+        "displayName": "Blue 200",
+        "canonical": "#C9D6F0",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "blue-150": {
+        "role": "secondary",
+        "displayName": "Blue 150",
+        "canonical": "#DCE5F7",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "blue-100": {
+        "role": "secondary",
+        "displayName": "Blue 100",
+        "canonical": "#E6ECF8",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "sun-bead": {
+        "role": "tertiary",
+        "displayName": "Sun Bead",
+        "canonical": "#F4B841",
+        "tonalRamp": [
+          "#4A3005",
+          "#7A520C",
+          "#A87414",
+          "#D2961F",
+          "#F4B841",
+          "#F8CE78",
+          "#FBE2AE",
+          "#FDF2DA"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#FFFFFF"
+      },
+      "stone-surface": {
+        "role": "neutral",
+        "displayName": "Stone Surface",
+        "canonical": "#E9E7E1"
+      },
+      "footer-stone": {
+        "role": "neutral",
+        "displayName": "Footer Stone",
+        "canonical": "#EFEDE7"
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#DFDED8"
+      },
+      "graphite-secondary": {
+        "role": "neutral",
+        "displayName": "Graphite Secondary",
+        "canonical": "#5C6066"
+      },
+      "graphite-tertiary": {
+        "role": "neutral",
+        "displayName": "Graphite Tertiary",
+        "canonical": "#767A80"
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "canonical": "#8E9196"
+      },
+      "disabled-fill": {
+        "role": "neutral",
+        "displayName": "Disabled Fill",
+        "canonical": "#D4D3CE"
+      },
+      "disabled-ink": {
+        "role": "neutral",
+        "displayName": "Disabled Ink",
+        "canonical": "#676B70"
+      },
+      "blue-300": {
+        "role": "secondary",
+        "displayName": "Blue 300",
+        "canonical": "#9DB6EC",
+        "tonalRamp": [
+          "#0E1F45",
+          "#142B5E",
+          "#1C3A7C",
+          "#264C9F",
+          "#315CBB",
+          "#C9D6F0",
+          "#DCE5F7",
+          "#E6ECF8"
+        ]
+      },
+      "on-dark-muted": {
+        "role": "neutral",
+        "displayName": "On-Dark Muted",
+        "canonical": "#C9CBCF",
+        "tonalRamp": [
+          "#16181B",
+          "#24272B",
+          "#3E4247",
+          "#5C6066",
+          "#767A80",
+          "#8E9196",
+          "#BDBBB4",
+          "#DFDED8"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The \"Store\" title only, 80px/600 in Heading Navy, measured from apple.com/store."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Stage, section, page, newsletter and product-name headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Shelf headings and shelf card titles at 28px/600; two-tone."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text at 17px/1.47."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Global nav links, footer and footnotes at 12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-store",
+        "value": "2px 4px 12px rgb(0 0 0 / 8%)",
+        "purpose": "Shelf and grid cards at rest, measured from apple.com/store."
+      },
+      {
+        "name": "card-store-hover",
+        "value": "2px 4px 16px rgb(0 0 0 / 16%)",
+        "purpose": "Shelf and grid cards on hover, with scale(1.01)."
+      },
+      {
+        "name": "card",
+        "value": "0 4px 14px rgb(36 39 43 / 6%)",
+        "purpose": "Benefits strip."
+      },
+      {
+        "name": "card-hover",
+        "value": "0 14px 34px rgb(36 39 43 / 12%)",
+        "purpose": "Category tiles on hover."
+      },
+      {
+        "name": "panel",
+        "value": "0 24px 48px -16px rgb(36 39 43 / 22%)",
+        "purpose": "Nav flyouts and bag/saved dialogs."
+      },
+      {
+        "name": "demo-on-blue",
+        "value": "0 30px 60px -30px rgb(10 20 50 / 45%)",
+        "purpose": "White demo cards on the blue stage."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "All UI motion: card lift (0.5s), flyouts (0.35-0.4s), chevrons, FAQ toggles, field labels."
+      },
+      {
+        "name": "ease-bead",
+        "value": "cubic-bezier(.3, 1.22, .5, 1)",
+        "purpose": "Abacus beads only (0.58s): a slight settle on the rod."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "Collapses all animation and transition durations; scripted shelf scrolling and demos also check it."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "large",
+        "value": "1068px"
+      },
+      {
+        "name": "medium",
+        "value": "833px"
+      },
+      {
+        "name": "small",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action pill, AMOFA Blue.",
+      "html": "<button class=\"ds-btn-primary\">Add to bag</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 22px; border: 1px solid transparent; border-radius: 980px; background: #315CBB; color: #fff; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 500; line-height: 1.1; cursor: pointer; transition: background-color .2s, transform .25s cubic-bezier(.16,1,.3,1); } .ds-btn-primary:hover { background: #264C9F; } .ds-btn-primary:active { transform: scale(.97); } .ds-btn-primary:focus-visible { outline: 2px solid #315CBB; outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined blue pill that fills on hover.",
+      "html": "<button class=\"ds-btn-secondary\">Save for later</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 22px; border: 1px solid #315CBB; border-radius: 980px; background: transparent; color: #315CBB; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 500; cursor: pointer; transition: background-color .2s, color .2s; } .ds-btn-secondary:hover { background: #315CBB; color: #fff; } .ds-btn-secondary:focus-visible { outline: 2px solid #315CBB; outline-offset: 3px; }"
+    },
+    {
+      "name": "Shelf Card (tone-blue)",
+      "kind": "card",
+      "refersTo": "shelf-card-tone-blue",
+      "description": "Apple Store shelf card, 400x500, tinted blue, with a two-tone title and a render bleeding off the bottom.",
+      "html": "<article class=\"ds-tile\"><h3 class=\"ds-tile-title\">Abacus Pencil <span>Count as you write.</span></h3><p class=\"ds-tile-text\">A familiar pencil with a new idea inside.</p><p class=\"ds-tile-price\">Price to be confirmed<sup>1</sup></p><div class=\"ds-tile-art\"></div></article>",
+      "css": ".ds-tile { position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 6px; width: 400px; max-width: 100%; height: 500px; padding: 28px; border-radius: 28px; background: #E6ECF8; color: #24272B; box-shadow: 2px 4px 12px rgb(0 0 0 / 8%); font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; transition: transform .5s cubic-bezier(.16,1,.3,1), box-shadow .5s cubic-bezier(.16,1,.3,1); } .ds-tile:hover { transform: scale(1.01); box-shadow: 2px 4px 16px rgb(0 0 0 / 16%); } .ds-tile-title { margin: 0; font-size: 28px; font-weight: 600; line-height: 1.143; letter-spacing: .004em; } .ds-tile-title span { color: #767A80; } .ds-tile-text { margin: 4px 0 0; max-width: 32ch; font-size: 16px; line-height: 1.4; color: #5C6066; } .ds-tile-price { margin: 4px 0 0; font-size: 14px; } .ds-tile-art { flex: 1; margin: 6px -28px -28px; background: radial-gradient(60% 50% at 60% 100%, #C9D6F0, transparent); }"
+    },
+    {
+      "name": "Two-Tone Shelf Heading",
+      "kind": "custom",
+      "refersTo": "title",
+      "description": "Navy lead phrase, gray continuation, 28px/600.",
+      "html": "<h2 class=\"ds-shelf-title\">The latest. <span>Take a look at what's new from AMOFA.</span></h2>",
+      "css": ".ds-shelf-title { margin: 0; max-width: 40ch; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 600; line-height: 1.143; letter-spacing: .004em; color: #1C3A7C; } .ds-shelf-title span { color: #767A80; }"
+    },
+    {
+      "name": "Floating-Label Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "56px white field with a label that floats when filled.",
+      "html": "<div class=\"ds-field\"><input id=\"ds-name\" placeholder=\" \"><label for=\"ds-name\">Full name</label></div>",
+      "css": ".ds-field { position: relative; width: 320px; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; } .ds-field input { display: block; width: 100%; height: 56px; padding: 24px 16px 8px; border: 1px solid #8E9196; border-radius: 12px; background: #fff; font: inherit; font-size: 17px; color: #24272B; transition: border-color .2s, box-shadow .2s; } .ds-field input::placeholder { color: transparent; } .ds-field input:focus { outline: 0; border-color: #315CBB; box-shadow: 0 0 0 3px #C9D6F0; } .ds-field label { position: absolute; top: 17px; left: 17px; font-size: 17px; line-height: 1.3; color: #5C6066; pointer-events: none; transform-origin: left top; transition: transform .2s cubic-bezier(.16,1,.3,1); } .ds-field input:focus + label, .ds-field input:not(:placeholder-shown) + label { transform: translateY(-9px) scale(.72); }"
+    },
+    {
+      "name": "Global Nav",
+      "kind": "nav",
+      "refersTo": "label",
+      "description": "44px translucent paper bar with 12px links.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-nav-logo\">AMOFA</span><ul><li><a href=\"#\" aria-current=\"page\">Store</a></li><li><a href=\"#\">Pencils</a></li><li><a href=\"#\">Erasers</a></li><li><a href=\"#\">Shop all</a></li></ul></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 32px; height: 44px; padding: 0 20px; background: rgb(247 246 242 / 80%); backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid rgb(36 39 43 / 8%); font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; } .ds-nav-logo { font-size: 20px; font-weight: 700; letter-spacing: -0.04em; color: #24272B; } .ds-nav ul { display: flex; gap: 24px; margin: 0; padding: 0; list-style: none; } .ds-nav a { font-size: 12px; line-height: 44px; color: rgb(36 39 43 / 82%); text-decoration: none; transition: color .2s; } .ds-nav a:hover, .ds-nav a[aria-current=page] { color: #24272B; } .ds-nav a[aria-current=page] { font-weight: 600; } .ds-nav a:focus-visible { outline: 2px solid #315CBB; outline-offset: 3px; }"
+    },
+    {
+      "name": "Quick Link Pill",
+      "kind": "chip",
+      "refersTo": "quick-link-pill",
+      "description": "38px pill with a 1px graphite border; turns blue on hover.",
+      "html": "<a class=\"ds-quick\" href=\"#\">Shipping &amp; returns</a>",
+      "css": ".ds-quick { display: inline-flex; align-items: center; min-height: 38px; padding: 8px 15px; border: 1px solid #24272B; border-radius: 980px; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: #24272B; text-decoration: none; transition: border-color .2s, color .2s; } .ds-quick:hover { border-color: #315CBB; color: #315CBB; } .ds-quick:focus-visible { outline: 2px solid #315CBB; outline-offset: 3px; }"
+    },
+    {
+      "name": "Newsletter Blue Field",
+      "kind": "custom",
+      "refersTo": "button-on-blue",
+      "description": "Full-bleed blue gradient field with a white pill input and white button.",
+      "html": "<section class=\"ds-blue\"><h2>Be first to know. <span>Prices and launch news.</span></h2><form><input placeholder=\"Email address\"><button type=\"button\">Keep me posted</button></form><p>Sign-up opens soon. Nothing is stored yet.</p></section>",
+      "css": ".ds-blue { padding: 48px 32px; background: linear-gradient(115deg, #1C3A7C, #264C9F 45%, #315CBB); color: #fff; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; } .ds-blue h2 { margin: 0 0 20px; font-size: 36px; font-weight: 600; line-height: 1.06; letter-spacing: -0.03em; } .ds-blue h2 span { color: #C9D6F0; } .ds-blue form { display: flex; gap: 12px; } .ds-blue input { flex: 1; height: 52px; padding: 0 22px; border: 0; border-radius: 980px; font: inherit; font-size: 17px; } .ds-blue button { min-height: 52px; padding: 0 22px; border: 0; border-radius: 980px; background: #fff; color: #264C9F; font: inherit; font-size: 17px; font-weight: 500; cursor: pointer; transition: background-color .2s; } .ds-blue button:hover { background: #E6ECF8; color: #1C3A7C; } .ds-blue :focus-visible { outline: 2px solid #fff; outline-offset: 3px; } .ds-blue p { margin: 12px 0 0; font-size: 14px; color: #DCE5F7; }"
+    },
+    {
+      "name": "Footnote Mark",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Superscript number linking to the footer's numbered pending-fact list.",
+      "html": "<p class=\"ds-fn\">Price to be confirmed<sup><a href=\"#fn1\">1</a></sup></p><ol class=\"ds-fn-list\"><li id=\"fn1\">Prices have not been confirmed. Final prices will be shown in Ghana cedis (GHS) before ordering opens.</li></ol>",
+      "css": ".ds-fn { font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; color: #24272B; } .ds-fn sup { font-size: .62em; line-height: 0; vertical-align: super; } .ds-fn sup a { color: inherit; } .ds-fn-list { margin: 16px 0 0; padding: 0 0 0 16px; font-family: 'Mona Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.45; color: #5C6066; } .ds-fn-list li:target { color: #24272B; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Lit Objects on Quiet Shelves",
+    "overview": "The AMOFA Store borrows its structure from apple.com/store and its colour energy from plug.tech, with Apple leading. Two stationery products sit as lit objects on warm off-white shelves: big tinted cards with drawn concept renders that bleed off the bottom edge, side-scrolling rows, a confident \"Store\" title, and a row of product icons at one object weight. The shelf geometry was measured from the live Apple Store (400 by 500 cards, 28px radius, a soft 2px 4px 12px shadow, 28px padding, 20px gaps, a 1160px container that gives a 140px inset at 1440).\n\nPlug's contribution is saturated AMOFA blue, used as full-bleed fields at the moments that sell: the announcement gradient, the demo stage where visitors slide abacus beads and erase ink, the promo tiles, and the newsletter band. Between those fields the page stays quiet: paper, graphite type, hairline dividers, and one blue for actions.\n\nThe system is honest about what is unconfirmed. Every pending fact (price, renders, Mobile Money, delivery) carries an Apple-style superscript footnote that resolves to a numbered list in the footer. The design never shows a payment, order, signup or message as successful.",
+    "keyCharacteristics": [
+      "Warm paper ground (#F7F6F2) with white, blue-tinted, and stone-tinted shelf cards.",
+      "Two-tone headings: a navy lead phrase, then a gray continuation.",
+      "One action blue in pill-shaped controls; blue-gradient fields at the selling moments.",
+      "Drawn, logo-free concept renders that bleed off card edges.",
+      "Numbered footnotes carry every pending fact.",
+      "Calm ease-out motion; a slight settle on the abacus beads only."
+    ],
+    "rules": [
+      {
+        "name": "The Two-Tone Heading Rule",
+        "body": "A heading opens with a short lead phrase in Heading Navy and continues in Graphite Tertiary (\"The latest. Take a look at what's new from AMOFA.\"). On blue fields the lead is white and the continuation is Blue 200.",
+        "section": "colors"
+      },
+      {
+        "name": "The Blue Field Rule",
+        "body": "Saturated blue arrives only as full fields: the announcement gradient (navy to blue), the demo stage (deep to navy), the promo tiles (blue to navy at 165deg), and the newsletter band (navy to blue at 115deg). Everything else stays on paper, and AMOFA Blue appears there only as actions and links.",
+        "section": "colors"
+      },
+      {
+        "name": "The Bead-Only Sun Rule",
+        "body": "Sun (#F4B841) fills beads and nothing else: never text, button fills, borders, badges or states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Measured Store Rule",
+        "body": "Store-derived roles keep their measured sizes: the 80px/600 \"Store\" title, 28px/600 shelf headings and card titles, 12px nav links. Do not round them toward a generic scale.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "Headings stand alone. Nothing small or uppercase sits above a heading to introduce it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Lift Rule",
+        "body": "Hover lifts a card by 1% scale and a deeper soft shadow over 0.5s ease-out. No offset or hard-edged shadows. Touch devices skip the lift.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set shelf cards at 400 by 500, 28px radius, 28px padding, 20px gaps, with the Store card shadow.",
+      "Do write every heading in two tones: navy lead phrase, gray continuation (Graphite Tertiary at 24px and above only).",
+      "Do reserve saturated blue for the four field types (announcement, demo stage, promo tiles, newsletter) and for actions and links.",
+      "Do tint product cards by category, tone-blue for pencils and tone-stone for erasers, and let the render bleed off the bottom edge.",
+      "Do attach a numbered footnote to every pending fact (price, renders, Mobile Money, delivery).",
+      "Do label every concept render as a concept render, not a photograph, in its accessible name and with footnote 2.",
+      "Do use ease-out (cubic-bezier(.16, 1, .3, 1)) for UI motion and respect prefers-reduced-motion everywhere, in CSS and in scripted scrolling and demos."
+    ],
+    "donts": [
+      "Don't show a payment, order, signup or message as successful; status copy says nothing was stored or sent.",
+      "Don't put eyebrow or kicker labels above headings.",
+      "Don't show competitor or third-party branding in product imagery; renders are drawn and logo-free.",
+      "Don't use Sun (#F4B841) for any UI element; it is a bead colour.",
+      "Don't use the bead settle easing on anything but the abacus beads.",
+      "Don't use Graphite Tertiary (#767A80) for text under 24px."
+    ]
+  }
+}
