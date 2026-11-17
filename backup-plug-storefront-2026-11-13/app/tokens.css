@@ -1,0 +1,31 @@
+/* AMOFA official colour system. All component colours resolve through these tokens. */
+:root {
+  color-scheme: light;
+  --color-background: #F7F6F2;
+  --color-text: #24272B;
+  --color-accent: #315CBB;
+  --color-accent-hover: #264C9F;
+  --color-surface: #E9E7E1;
+  --color-card: #FFFFFF;
+  --color-border: #DFDED8;
+  --color-text-secondary: #5C6066;
+  --color-disabled-background: #D4D3CE;
+  --color-disabled-text: #676B70;
+  --color-footer-muted: #C4C6CA;
+  --color-photo-overlay: rgb(36 39 43 / 72%);
+  --color-card-overlay: rgb(255 255 255 / 94%);
+  --color-page-overlay: rgb(36 39 43 / 24%);
+  --color-shadow: rgb(36 39 43 / 8%);
+  --color-shadow-hover: rgb(36 39 43 / 12%);
+  --color-mask: rgb(0 0 0);
+  --paper: var(--color-background);
+  --surface: var(--color-card);
+  --ink: var(--color-text);
+  --ink-strong: var(--color-text);
+  --muted: var(--color-text-secondary);
+  --mint: var(--color-surface);
+  --mint-deep: var(--color-surface);
+  --line: var(--color-border);
+  --accent: var(--color-accent);
+  --gold: var(--color-accent);
+}

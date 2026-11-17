@@ -1,0 +1,19 @@
+{
+  "tool": "Built-in image_gen",
+  "sourcePhotos": "Real Unsplash stationery photographs; reference only, not official AMOFA products.",
+  "edits": [
+    {
+      "file": "stationery-cutout.png",
+      "prompt": "Use case: background-extraction. Edit the provided real photograph for an ecommerce website hero. Remove ONLY the white/gray tabletop background, leaving a genuinely transparent alpha background. Keep the photographed red pencil case, all pencils, markers, pens, and the white eraser exactly as they appear: their real details, colors, material textures and existing arrangement. Fit the complete visible object group within the output canvas without cutting off any more than the source already does, with a small transparent margin. Keep crisp, accurate photographic edges and subtle natural shadows at the object boundaries. Do not add new objects, lettering, logos, branding, illustrations, gradients or a replacement scene. This is a faithful cutout of the source photograph, not a new product design."
+    },
+    {
+      "file": "pencils-cutout.png",
+      "prompt": "Use case: background-extraction correction. Edit this existing transparent pencil cutout. Remove every diffuse yellow, pink, green, gray and black haze, glow and soft shadow around the pencils. The alpha must be exactly zero everywhere outside the five solid pencil objects, including all empty regions between the pencils. Use crisp object-edge alpha with only minimal 1-pixel antialiasing, NO feathered matte, NO blur, NO shadow, NO halo. Preserve the actual pencil pixels, their positions, detail, markings, color and shape unchanged. Do not add objects or extend the cropped pencil ends. Return only the clean group of five pencils on true transparency."
+    },
+    {
+      "file": "eraser-cutout.png",
+      "prompt": "Use case: background-extraction. From the supplied real stationery photograph extract ONLY the single white rectangular Staedtler eraser in its printed paper sleeve, at the lower left of the source. Keep the exact real photographed eraser, its wear, paper sleeve, blue lettering, original viewing angle, texture, and proportions. Remove every other object, the pencil case, pens, pencils, all tabletop and background. Output only this photographed eraser as a large crisp ecommerce cutout on truly transparent alpha with 12% transparent margin. Do not redesign the eraser, add branding, generate new objects, draw an illustration or put it on a replacement surface."
+    }
+  ],
+  "pencilFirstPassPrompt": "Use case: background-extraction. From the supplied real photograph, extract ONLY the photographed group of five yellow pencils with green ferrules and pink eraser ends. Remove the white notebook, spiral binding, paper, background, and desk entirely to transparent alpha. Keep the pencils exactly as photographed, preserving original realistic detail, arrangement, proportions, colors, markings and wear. Do not invent pointed tips or extend the cropped top ends: the pencils end where the source crop ends. Output the group as a clean ecommerce photographic cutout centered with 10% transparent padding around it, with accurate photographic edges. No additions, no drawn illustration, no replacement background, no new lettering."
+}

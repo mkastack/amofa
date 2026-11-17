@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T08:20:00Z",
+  "title": "Design System: AMOFA Storefront",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "navigation-panel",
+        "value": "0 18px 26px #12333318",
+        "purpose": "Separate search and category panels from the page."
+      }
+    ],
+    "motion": [
+      {
+        "name": "campaign-in",
+        "value": "650ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Reveal campaign slides; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet",
+        "value": "960px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [],
+  "narrative": {
+    "northStar": "AMOFA in the Plug retail structure",
+    "overview": "Full-page Plug reference reconstruction with Space Grotesk headings, Inter UI text, isolated photographic campaign imagery, angled product carousel, tabbed picks, white brand split, editorial/community rows, centered FAQ, journal, gradient newsletter and expanded footer.",
+    "keyCharacteristics": [
+      "67/52/28px desktop heading hierarchy",
+      "Full 10,000px desktop retail page rhythm",
+      "Tall horizontal product and category rows",
+      "Persistent mobile search",
+      "Reference-photo disclosure"
+    ],
+    "rules": [],
+    "dos": [
+      "Disclose reference imagery",
+      "Preserve confirmed product facts"
+    ],
+    "donts": [
+      "Invent reviews or sale claims",
+      "Imply checkout processes real payments"
+    ]
+  }
+}
